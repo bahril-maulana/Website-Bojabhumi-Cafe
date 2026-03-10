@@ -1,0 +1,700 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Bojabhumi Cafe - Tempat ngopi yang nyaman dengan menu pilihan terbaik. Nikmati suasana hangat dan cita rasa autentik." />
+  <title>Bojabhumi Cafe</title>
+
+  <!-- favicon -->
+   <link rel="icon" type="image/x-icon" href="./Assets/Icon/favicon.ico" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,600&family=DM+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+  <link rel="stylesheet" href="./Css/style.css" />
+</head>
+<body>
+
+  <!-- ===== NAVBAR ===== -->
+  <nav class="navbar navbar-expand-lg" id="navbar">
+    <div class="container">
+      <a class="navbar-brand" href="#hero">Bojabhumi</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav mx-auto gap-1">
+          <li class="nav-item"><a class="nav-link" href="#about">Tentang Kami</a></li>
+          <li class="nav-item"><a class="nav-link" href="#menu">Menu</a></li>
+          <li class="nav-item"><a class="nav-link" href="#gallery">Galeri</a></li>
+          <li class="nav-item"><a class="nav-link" href="#testimonial">Ulasan</a></li>
+          <li class="nav-item"><a class="nav-link" href="#location">Lokasi</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Reservasi</a></li>
+        </ul>
+        <div class="d-flex align-items-center mt-3 mt-lg-0">
+          <a href="https://wa.me/628124199235" class="btn-wa-nav nav-link" data-wa>
+            <i class="bi bi-whatsapp"></i>
+            Chat Admin
+          </a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ===== HERO SECTION ===== -->
+  <section id="hero">
+    <div class="container hero-content">
+      <div class="row align-items-center min-vh-100 g-4">
+
+        <!-- Text Side -->
+        <div class="col-lg-6 hero-text-col">
+          <div class="hero-badge">✦ Selamat Datang di Bojabhumi</div>
+          <h1 class="hero-title">
+            Tempat Ngopi<br />
+            yang <span>Berasa</span><br />
+            Seperti Rumah
+          </h1>
+          <p class="hero-subtitle">
+            Nikmati setiap tegukan dengan cita rasa autentik, suasana hangat,
+            dan menu pilihan yang selalu menggoda selera.
+          </p>
+          <div class="hero-actions">
+            <a href="#menu" class="btn-primary-custom">
+              <i class="bi bi-cup-hot"></i> Lihat Menu
+            </a>
+            <a href="https://wa.me/628124199235" class="btn-outline-custom" data-wa>
+              <i class="bi bi-whatsapp"></i> Reservasi Sekarang
+            </a>
+          </div>
+          <div class="hero-stats">
+            <div>
+              <div class="hero-stat-num">5+</div>
+              <div class="hero-stat-label">Tahun Berdiri</div>
+            </div>
+            <div>
+              <div class="hero-stat-num">50+</div>
+              <div class="hero-stat-label">Menu Pilihan</div>
+            </div>
+            <div>
+              <div class="hero-stat-num">10rb+</div>
+              <div class="hero-stat-label">Pelanggan Puas</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Image Side -->
+        <div class="col-lg-6 hero-img-col d-md-block d-none">
+          <div class="hero-img-wrapper">
+            <!-- Floating cards -->
+            <div class="hero-float-card">
+              <div class="fc-icon">⭐</div>
+              <div class="fc-text">
+                <strong>Rating 4.9</strong>
+                <p>Dari 2.000+ ulasan</p>
+              </div>
+            </div>
+            <div class="hero-float-card mt-md-5">
+              <div class="fc-icon">☕</div>
+              <div class="fc-text">
+                <strong>Kopi Premium</strong>
+                <p>Biji lokal pilihan</p>
+              </div>
+            </div>
+            <!-- Main image -->
+            <div class="hero-img-main">
+              <!-- Ganti src dengan foto hero cafe Anda -->
+              <img src="./Assets/Images/Hero/cafe.jpg" alt="Bojabhumi Cafe" />
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== ABOUT SECTION ===== -->
+  <section id="about">
+    <div class="container">
+      <div class="row align-items-center g-5">
+        <div class="col-lg-5 reveal-left">
+          <div class="about-img-wrapper">
+            <img src="./Assets/Images/About/About.jpg" alt="Interior Bojabhumi Cafe" />
+            <div class="about-badge">
+              <div class="number">5+</div>
+              <div class="label">Tahun Berdiri</div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-7 reveal-right">
+          <span class="section-label">Tentang Kami</span>
+          <h2 class="section-title">Cerita di Balik Setiap Cangkir Kopi</h2>
+          <div class="section-divider left"></div>
+          <p class="mb-4" style="font-size: 0.95rem; color: var(--gray-dark);">
+            Bojabhumi lahir dari kecintaan mendalam terhadap kopi dan keinginan menciptakan
+            ruang yang bukan sekadar tempat minum, tapi tempat bercerita, berkarya, dan bersantai.
+            Kami memilih biji kopi terbaik dari berbagai penjuru Nusantara, diseduh dengan penuh
+            perhatian oleh barista berpengalaman kami.
+          </p>
+          <p class="mb-4" style="font-size: 0.95rem; color: var(--gray-dark);">
+            Setiap sudut Bojabhumi dirancang untuk memberikan kehangatan yang terasa seperti rumah
+            sendiri — karena kami percaya, kopi terenak adalah yang dinikmati bersama orang-orang terkasih.
+          </p>
+          <div class="about-feature">
+            <div class="icon">☕</div>
+            <div class="text">
+              <h5>Biji Kopi Premium</h5>
+              <p>Dipilih langsung dari petani lokal terbaik di Aceh, Flores, dan Toraja</p>
+            </div>
+          </div>
+          <div class="about-feature">
+            <div class="icon">👨‍🍳</div>
+            <div class="text">
+              <h5>Barista Berpengalaman</h5>
+              <p>Tim barista terlatih yang siap meracik minuman terbaik untuk Anda</p>
+            </div>
+          </div>
+          <div class="about-feature">
+            <div class="icon">🌿</div>
+            <div class="text">
+              <h5>Bahan-Bahan Segar</h5>
+              <p>Bahan makanan dan minuman dipilih fresh setiap hari untuk kualitas terjaga</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== MENU SECTION ===== -->
+  <section id="menu">
+    <div class="container">
+      <div class="text-center mb-5 reveal">
+        <span class="section-label">Menu Kami</span>
+        <h2 class="section-title">Pilihan Menu Spesial</h2>
+        <div class="section-divider"></div>
+        <p style="font-size: 0.95rem; color: var(--gray-dark); max-width: 520px; margin: 0 auto;">
+          Dari kopi signature hingga makanan ringan yang menggugah selera —
+          semuanya hadir untuk melengkapi hari Anda.
+        </p>
+      </div>
+      <div class="menu-filter reveal">
+        <button class="filter-btn active" data-filter="all">Semua</button>
+        <button class="filter-btn" data-filter="kopi">Kopi</button>
+        <button class="filter-btn" data-filter="nonkopi">Non Kopi</button>
+        <button class="filter-btn" data-filter="makanan">Makanan</button>
+        <button class="filter-btn" data-filter="dessert">Dessert</button>
+      </div>
+      <div class="row g-4">
+
+        <div class="col-lg-3 col-md-4 col-sm-6 menu-item" data-category="kopi">
+          <div class="menu-card reveal">
+            <div class="menu-card-img">
+              <img src="./Assets/Images/Menu kopi/Menu 1.jpg" alt="Bojabhumi Signature" />
+              <span class="menu-card-badge">Signature</span>
+            </div>
+            <div class="menu-card-body">
+              <div class="menu-card-title">Bojabhumi Signature</div>
+              <p class="menu-card-desc">Espresso double shot dengan susu segar pilihan dan topping karamel tipis yang memanjakan</p>
+              <div class="menu-card-price">Rp 35.000</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-sm-6 menu-item" data-category="kopi">
+          <div class="menu-card reveal">
+            <div class="menu-card-img">
+              <img src="./Assets/Images/Menu kopi/Menu 2.jpg" alt="Cold Brew Nitro" />
+              <span class="menu-card-badge">Best Seller</span>
+            </div>
+            <div class="menu-card-body">
+              <div class="menu-card-title">Cold Brew Nitro</div>
+              <p class="menu-card-desc">Cold brew 18 jam disajikan dengan nitrogen, creamy dan bold tanpa rasa pahit berlebih</p>
+              <div class="menu-card-price">Rp 38.000</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-sm-6 menu-item" data-category="kopi">
+          <div class="menu-card reveal">
+            <div class="menu-card-img">
+              <img src="./Assets/Images/Menu kopi/Menu 3.jpg" alt="Caramel Macchiato" />
+            </div>
+            <div class="menu-card-body">
+              <div class="menu-card-title">Caramel Macchiato</div>
+              <p class="menu-card-desc">Lapisan vanilla, susu lembut, espresso, dan drizzle caramel yang sempurna di setiap tegukan</p>
+              <div class="menu-card-price">Rp 32.000</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-sm-6 menu-item" data-category="kopi">
+          <div class="menu-card reveal">
+            <div class="menu-card-img">
+              <img src="./Assets/Images/Menu kopi/Menu 4.jpg" alt="Kopi Susu Gula Aren" />
+              <span class="menu-card-badge">Favorit</span>
+            </div>
+            <div class="menu-card-body">
+              <div class="menu-card-title">Kopi Susu Gula Aren</div>
+              <p class="menu-card-desc">Paduan espresso dengan susu segar dan manisnya gula aren asli, disajikan dingin menyegarkan</p>
+              <div class="menu-card-price">Rp 28.000</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-sm-6 menu-item" data-category="nonkopi">
+          <div class="menu-card reveal">
+            <div class="menu-card-img">
+              <img src="./Assets/Images/Non kopi/Menu 1.jpg" alt="Matcha Latte" />
+              <span class="menu-card-badge">New</span>
+            </div>
+            <div class="menu-card-body">
+              <div class="menu-card-title">Matcha Latte</div>
+              <p class="menu-card-desc">Matcha ceremonial grade dari Jepang dipadukan susu oat yang creamy dan earthy</p>
+              <div class="menu-card-price">Rp 33.000</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-sm-6 menu-item" data-category="nonkopi">
+          <div class="menu-card reveal">
+            <div class="menu-card-img">
+              <img src="./Assets/Images/Non kopi/Menu 2.jpg" alt="Taro Milk" />
+            </div>
+            <div class="menu-card-body">
+              <div class="menu-card-title">Taro Milk</div>
+              <p class="menu-card-desc">Kelezatan taro asli berpadu susu segar, warna ungu cantik dengan rasa lembut yang khas</p>
+              <div class="menu-card-price">Rp 30.000</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-sm-6 menu-item" data-category="nonkopi">
+          <div class="menu-card reveal">
+            <div class="menu-card-img">
+              <img src="./Assets/Images/Non kopi/Menu 3.jpg" alt="Strawberry Lemonade" />
+            </div>
+            <div class="menu-card-body">
+              <div class="menu-card-title">Strawberry Lemonade</div>
+              <p class="menu-card-desc">Segar perpaduan strawberry segar dan lemon asli, cocok untuk teman bersantai siang hari</p>
+              <div class="menu-card-price">Rp 25.000</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-sm-6 menu-item" data-category="nonkopi">
+          <div class="menu-card reveal">
+            <div class="menu-card-img">
+              <img src="./Assets/Images/Non kopi/Menu 4.jpg" alt="Brown Sugar Milk Tea" />
+              <span class="menu-card-badge">Best Seller</span>
+            </div>
+            <div class="menu-card-body">
+              <div class="menu-card-title">Brown Sugar Milk Tea</div>
+              <p class="menu-card-desc">Teh premium dengan sirup brown sugar artisan dan susu segar, semakin nikmat dengan boba</p>
+              <div class="menu-card-price">Rp 29.000</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-sm-6 menu-item" data-category="makanan">
+          <div class="menu-card reveal">
+            <div class="menu-card-img">
+              <img src="./Assets/Images/Makanan/Menu 1.jpg" alt="Avocado Toast" />
+            </div>
+            <div class="menu-card-body">
+              <div class="menu-card-title">Avocado Toast</div>
+              <p class="menu-card-desc">Roti sourdough panggang dengan alpukat creamy, telur poached, dan taburan biji-bijian</p>
+              <div class="menu-card-price">Rp 42.000</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-sm-6 menu-item" data-category="makanan">
+          <div class="menu-card reveal">
+            <div class="menu-card-img">
+              <img src="./Assets/Images/Makanan/Menu 2.jpg" alt="Grilled Chicken Sandwich" />
+              <span class="menu-card-badge">Favorit</span>
+            </div>
+            <div class="menu-card-body">
+              <div class="menu-card-title">Grilled Chicken Sandwich</div>
+              <p class="menu-card-desc">Ayam fillet panggang lembut, selada segar, tomat, dan saus spesial dalam roti brioche</p>
+              <div class="menu-card-price">Rp 48.000</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-sm-6 menu-item" data-category="makanan">
+          <div class="menu-card reveal">
+            <div class="menu-card-img">
+              <img src="./Assets/Images/Makanan/Menu 3.jpg" alt="Mushroom Pasta" />
+              <span class="menu-card-badge">New</span>
+            </div>
+            <div class="menu-card-body">
+              <div class="menu-card-title">Mushroom Pasta</div>
+              <p class="menu-card-desc">Pasta al dente dengan jamur pilihan, saus krim truffle ringan dan parmesan freshly grated</p>
+              <div class="menu-card-price">Rp 55.000</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-sm-6 menu-item" data-category="makanan">
+          <div class="menu-card reveal">
+            <div class="menu-card-img">
+              <img src="./Assets/Images/Makanan/Menu 4.jpg" alt="Nasi Goreng Kampung" />
+            </div>
+            <div class="menu-card-body">
+              <div class="menu-card-title">Nasi Goreng Kampung</div>
+              <p class="menu-card-desc">Nasi goreng rempah khas kampung dengan telur mata sapi, kerupuk, dan acar segar</p>
+              <div class="menu-card-price">Rp 38.000</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-sm-6 menu-item" data-category="dessert">
+          <div class="menu-card reveal">
+            <div class="menu-card-img">
+              <img src="./Assets/Images/Dessert/Menu 1.jpg" alt="Tiramisu" />
+              <span class="menu-card-badge">Signature</span>
+            </div>
+            <div class="menu-card-body">
+              <div class="menu-card-title">Tiramisu Bojabhumi</div>
+              <p class="menu-card-desc">Tiramisu klasik Italia dengan lapisan mascarpone lembut dan espresso shot special kami</p>
+              <div class="menu-card-price">Rp 40.000</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-sm-6 menu-item" data-category="dessert">
+          <div class="menu-card reveal">
+            <div class="menu-card-img">
+              <img src="./Assets/Images/Dessert/Menu 2.jpg" alt="Lava Cake" />
+              <span class="menu-card-badge">Best Seller</span>
+            </div>
+            <div class="menu-card-body">
+              <div class="menu-card-title">Chocolate Lava Cake</div>
+              <p class="menu-card-desc">Kue coklat hangat dengan isian liquid chocolate yang mengalir sempurna, disajikan dengan es krim vanilla</p>
+              <div class="menu-card-price">Rp 45.000</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-sm-6 menu-item" data-category="dessert">
+          <div class="menu-card reveal">
+            <div class="menu-card-img">
+              <img src="./Assets/Images/Dessert/Menu 3.jpg" alt="Pancake Stack" />
+            </div>
+            <div class="menu-card-body">
+              <div class="menu-card-title">Fluffy Pancake Stack</div>
+              <p class="menu-card-desc">Tumpukan pancake Japanese-style super fluffy dengan maple syrup, fresh berry dan whipped cream</p>
+              <div class="menu-card-price">Rp 43.000</div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== GALLERY SECTION ===== -->
+  <section id="gallery">
+    <div class="container">
+      <div class="text-center mb-5 reveal">
+        <span class="section-label">Galeri</span>
+        <h2 class="section-title">Suasana Bojabhumi</h2>
+        <div class="section-divider"></div>
+        <p style="font-size: 0.95rem; color: var(--gray-dark); max-width: 460px; margin: 0 auto;">
+          Temukan keindahan setiap sudut cafe kami yang dirancang untuk kenyamanan dan ketenangan Anda.
+        </p>
+      </div>
+      <div class="gallery-grid reveal">
+        <div class="gallery-item">
+          <img src="./Assets/Images/Galery/Galery 1.jpg" alt="Suasana Bojabhumi" />
+          <div class="gallery-overlay"><span>Area Utama</span></div>
+        </div>
+        <div class="gallery-item">
+          <img src="./Assets/Images/Galery/Galery 2.jpg" alt="Outdoor Area" />
+          <div class="gallery-overlay"><span>Area Outdoor</span></div>
+        </div>
+        <div class="gallery-item">
+          <img src="./Assets/Images/Galery/Galery 3.jpg" alt="Bar Area" />
+          <div class="gallery-overlay"><span>Coffee Bar</span></div>
+        </div>
+        <div class="gallery-item">
+          <img src="./Assets/Images/Galery/Galery 4.jpg" alt="Cozy Corner" />
+          <div class="gallery-overlay"><span>Cozy Corner</span></div>
+        </div>
+        <div class="gallery-item">
+          <img src="./Assets/Images/Galery/Galery 5.jpg" alt="Private Area" />
+          <div class="gallery-overlay"><span>Private Area</span></div>
+        </div>
+        <div class="gallery-item">
+          <img src="./Assets/Images/Galery/Galery 6.jpg" alt="Night Vibes" />
+          <div class="gallery-overlay"><span>Night Vibes</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== TESTIMONIAL SECTION ===== -->
+  <section id="testimonial">
+    <div class="container">
+      <div class="text-center mb-5 reveal">
+        <span class="section-label">Ulasan Pelanggan</span>
+        <h2 class="section-title">Apa Kata Mereka?</h2>
+        <div class="section-divider"></div>
+      </div>
+      <div class="row g-4">
+        <div class="col-lg-4 col-md-6 reveal">
+          <div class="testimonial-card">
+            <div class="testimonial-stars">★★★★★</div>
+            <p class="testimonial-text">"Kopi Signature-nya benar-benar beda dari yang lain. Rasanya balance banget antara pahit dan manisnya. Suasananya juga nyaman banget buat kerja atau ngobrol santai sama teman."</p>
+            <div class="testimonial-author">
+              <div class="testimonial-avatar">A</div>
+              <div>
+                <div class="testimonial-name">Anisa Rahma</div>
+                <div class="testimonial-role">Pelanggan Setia</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 reveal">
+          <div class="testimonial-card">
+            <div class="testimonial-stars">★★★★★</div>
+            <p class="testimonial-text">"Tiramisu-nya legend! Sudah coba banyak cafe tapi punya Bojabhumi masih yang terbaik. Cold Brew Nitro-nya juga highly recommended. Wajib balik lagi!"</p>
+            <div class="testimonial-author">
+              <div class="testimonial-avatar">R</div>
+              <div>
+                <div class="testimonial-name">Rizky Pratama</div>
+                <div class="testimonial-role">Food Blogger</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 reveal">
+          <div class="testimonial-card">
+            <div class="testimonial-stars">★★★★★</div>
+            <p class="testimonial-text">"Tempat meeting favorit saya dan tim. WiFi kencang, kursinya nyaman, pelayannya ramah. Mushroom Pasta dan Matcha Latte-nya selalu jadi pilihan wajib."</p>
+            <div class="testimonial-author">
+              <div class="testimonial-avatar">D</div>
+              <div>
+                <div class="testimonial-name">Dina Kusuma</div>
+                <div class="testimonial-role">Creative Director</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 reveal">
+          <div class="testimonial-card">
+            <div class="testimonial-stars">★★★★☆</div>
+            <p class="testimonial-text">"Ambience-nya juara, cocok banget buat foto-foto. Chocolate Lava Cake-nya enak banget apalagi dimakan selagi hangat. Pasti balik lagi bawa keluarga!"</p>
+            <div class="testimonial-author">
+              <div class="testimonial-avatar">S</div>
+              <div>
+                <div class="testimonial-name">Sarah Amelia</div>
+                <div class="testimonial-role">Content Creator</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 reveal">
+          <div class="testimonial-card">
+            <div class="testimonial-stars">★★★★★</div>
+            <p class="testimonial-text">"Kopi Susu Gula Aren-nya addictive! Harganya juga worth it banget sama kualitasnya. Udah jadi langganan tetap setiap Sabtu pagi sama pasangan."</p>
+            <div class="testimonial-author">
+              <div class="testimonial-avatar">F</div>
+              <div>
+                <div class="testimonial-name">Fajar Nugroho</div>
+                <div class="testimonial-role">Pelanggan Reguler</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 reveal">
+          <div class="testimonial-card">
+            <div class="testimonial-stars">★★★★★</div>
+            <p class="testimonial-text">"Pelayanannya super ramah dan cepat. Menu barunya makin variatif. Avocado Toast sama Strawberry Lemonade combo terbaik untuk weekend brunch!"</p>
+            <div class="testimonial-author">
+              <div class="testimonial-avatar">M</div>
+              <div>
+                <div class="testimonial-name">Maya Indra</div>
+                <div class="testimonial-role">Ibu Rumah Tangga</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== LOCATION SECTION ===== -->
+  <section id="location">
+    <div class="container">
+      <div class="text-center mb-5 reveal">
+        <span class="section-label">Temukan Kami</span>
+        <h2 class="section-title">Lokasi & Jam Buka</h2>
+        <div class="section-divider"></div>
+      </div>
+      <div class="row g-4 align-items-stretch">
+
+        <!-- Alamat -->
+        <div class="col-lg-4 reveal-left">
+          <div class="location-card h-100">
+            <div class="location-icon-box">📍</div>
+            <h4>Alamat</h4>
+            <!-- GANTI DENGAN ALAMAT ANDA -->
+            <p>
+              Jl. [Nama Jalan], No. [Nomor]<br />
+              [Kelurahan], [Kecamatan]<br />
+              [Kota], [Provinsi] [Kode Pos]
+            </p>
+          </div>
+        </div>
+
+        <!-- Jam Buka -->
+        <div class="col-lg-4 reveal">
+          <div class="location-card h-100">
+            <div class="location-icon-box">🕐</div>
+            <h4>Jam Operasional</h4>
+            <!-- GANTI DENGAN JAM BUKA ANDA -->
+            <ul class="hours-list">
+              <li><span class="day">Senin – Jumat</span><span class="time">08.00 – 22.00</span></li>
+              <li><span class="day">Sabtu</span><span class="time">07.00 – 23.00</span></li>
+              <li><span class="day">Minggu</span><span class="time">07.00 – 21.00</span></li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Google Maps CTA -->
+        <div class="col-lg-4 reveal-right">
+          <div class="gmaps-cta-box h-100">
+            <div class="gmaps-cta-icon">🗺️</div>
+            <h4>Temukan Kami di Maps</h4>
+            <p>Klik tombol di bawah untuk membuka lokasi kami di Google Maps dan dapatkan petunjuk arah.</p>
+            <!-- GANTI HREF DENGAN LINK GOOGLE MAPS ANDA -->
+            <a href="https://maps.app.goo.gl/JB77A7bRBNKrsEku5" target="_blank" class="btn-gmaps">
+              <i class="bi bi-geo-alt-fill"></i>
+              Buka Google Maps
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT / RESERVASI SECTION ===== -->
+  <section id="contact">
+    <div class="container">
+      <div class="contact-content reveal">
+        <span class="section-label">Hubungi Kami</span>
+        <h2 class="section-title">Meja Siap Menanti Anda</h2>
+        <div class="section-divider"></div>
+        <p style="font-size: 0.95rem; color: var(--gray-dark);">
+          Ingin reservasi meja, tanya tentang menu, atau info lebih lanjut?
+          Tim kami siap membantu Anda dengan cepat dan ramah.
+        </p>
+        <div class="contact-actions">
+          <a href="https://wa.me/6281224199235" class="btn-wa-large" data-wa data-wa-msg="Halo Bojabhumi! Saya ingin melakukan reservasi meja 😊">
+            <i class="bi bi-whatsapp" style="font-size: 1.3rem;"></i>
+            Reservasi via WhatsApp
+          </a>
+          <!-- GANTI HREF DENGAN NOMOR TELEPON ANDA -->
+          <a href="https://wa.me/6281224199235" class="btn-call">
+            <i class="bi bi-telephone-fill" style="font-size: 1.1rem;"></i>
+            Hubungi Kami
+          </a>
+        </div>
+        <div class="contact-info-chips">
+          <div class="chip">
+            <i class="bi bi-clock" style="color: var(--green-primary);"></i>
+            Respon cepat &lt; 5 menit
+          </div>
+          <div class="chip">
+            <i class="bi bi-calendar-check" style="color: var(--green-primary);"></i>
+            Tersedia 7 hari seminggu
+          </div>
+          <div class="chip">
+            <i class="bi bi-people" style="color: var(--green-primary);"></i>
+            Layani acara & gathering
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer>
+    <div class="container">
+      <div class="row g-5">
+        <div class="col-lg-4">
+          <div class="footer-brand">Bojabhumi</div>
+          <p class="footer-tagline">
+            Tempat ngopi yang hangat dan berasa seperti rumah sendiri.
+            Setiap tegukan adalah cerita yang ingin kami bagi bersama Anda.
+          </p>
+          <div class="footer-social">
+            <!-- GANTI HREF DENGAN LINK SOSIAL MEDIA ANDA -->
+            <a href="https://www.instagram.com/bojabhumi?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" class="social-btn" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+            <a href="https://www.facebook.com/bojabhumi" class="social-btn" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+            <a href="https://www.tiktok.com/@bojabhumi" class="social-btn" aria-label="TikTok"><i class="bi bi-tiktok"></i></a>
+            <a href="https://wa.me/6281224199235" class="social-btn" aria-label="WhatsApp" data-wa><i class="bi bi-whatsapp"></i></a>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-4 col-6">
+          <div class="footer-heading">Navigasi</div>
+          <ul class="footer-links">
+            <li><a href="#about"><i class="bi bi-chevron-right"></i>Tentang Kami</a></li>
+            <li><a href="#menu"><i class="bi bi-chevron-right"></i>Menu</a></li>
+            <li><a href="#gallery"><i class="bi bi-chevron-right"></i>Galeri</a></li>
+            <li><a href="#testimonial"><i class="bi bi-chevron-right"></i>Ulasan</a></li>
+            <li><a href="#location"><i class="bi bi-chevron-right"></i>Lokasi</a></li>
+            <li><a href="#contact"><i class="bi bi-chevron-right"></i>Reservasi</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-2 col-md-4 col-6">
+          <div class="footer-heading">Menu</div>
+          <ul class="footer-links">
+            <li><a href="#menu"><i class="bi bi-chevron-right"></i>Kopi</a></li>
+            <li><a href="#menu"><i class="bi bi-chevron-right"></i>Non Kopi</a></li>
+            <li><a href="#menu"><i class="bi bi-chevron-right"></i>Makanan</a></li>
+            <li><a href="#menu"><i class="bi bi-chevron-right"></i>Dessert</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-4 col-md-4">
+          <div class="footer-heading">Kontak</div>
+          <!-- GANTI DENGAN INFO KONTAK ANDA -->
+          <div class="footer-contact-item">
+            <i class="bi bi-geo-alt-fill icon"></i>
+            <p>Jl. [Nama Jalan], No. [Nomor], [Kota], [Provinsi]</p>
+          </div>
+          <div class="footer-contact-item">
+            <i class="bi bi-whatsapp icon"></i>
+            <p>+62 812-XXXX-XXXX</p>
+          </div>
+          <div class="footer-contact-item">
+            <i class="bi bi-envelope-fill icon"></i>
+            <p>hello@bojabhumi.id</p>
+          </div>
+          <div class="footer-contact-item">
+            <i class="bi bi-clock-fill icon"></i>
+            <p>Senin–Jumat: 08.00–22.00<br />Sabtu–Minggu: 07.00–23.00</p>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; <span id="year"></span> <span>Bojabhumi Cafe</span>. All rights reserved.</p>
+        <p>Crafted with <span>♥</span> in Indonesia</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- BACK TO TOP -->
+  <button id="backToTop" aria-label="Back to top">
+    <i class="bi bi-chevron-up"></i>
+  </button>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="./Js/script.js"></script>
+</body>
+</html>
