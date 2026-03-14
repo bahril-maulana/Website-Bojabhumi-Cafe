@@ -2,7 +2,7 @@
 
 // Nomor WhatsApp Admin - GANTI NOMOR INI
 const WA_NUMBER = "6281224199235";
-const WA_MESSAGE = "Halo Bojabhumi! Saya ingin bertanya mengenai menu / reservasi 😊";
+const WA_MESSAGE = "Halo Bojabhumi!";
 
 // ===== NAVBAR SCROLL =====
 const navbar = document.getElementById('navbar');
