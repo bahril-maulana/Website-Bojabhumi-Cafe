@@ -179,7 +179,7 @@ section { padding: 60px 0; }
 }
 .hero-img-wrapper { position: relative; width: 100%; max-width: 500px; margin: 0 auto; }
 .hero-img-main {
-  width: 100%; height: 520px;
+  width: 100%; height: 500px;
   border-radius: 40% 60% 60% 40% / 40% 40% 60% 60%;
   overflow: hidden; box-shadow: var(--shadow-lg);
   border: 6px solid rgba(254,255,211,0.7);
@@ -512,13 +512,15 @@ footer .row > div:nth-child(2) { margin-left: auto; }
   .location-card { padding: 14px 16px; gap: 12px; }
   .location-icon { width: 40px; height: 40px; font-size: 0.95rem; }
   .location-value { font-size: 0.8rem; }
+  .hero-badge{margin-top: 30px;}
 }
 
 @media (max-width: 480px) {
   .gallery-grid { grid-template-columns: 1fr; }
   .gallery-item { grid-column: span 1 !important; height: 220px !important; }
   .hero-actions { flex-direction: column; align-items: start; }
-  .hero-img-main { height: 270px; }
+  .hero-badge{margin-top: 30px;}
+  .about-img-wrapper { height: 400px; }
   .hero-content { padding-top: 0px; }
   .col-sm-6, .col-md-4, .col-lg-3, .menu-item{ padding:0 100px}
 }

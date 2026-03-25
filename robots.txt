@@ -1,0 +1,33 @@
+# Robots.txt untuk Website Bojabhumi Cafe
+# Dioptimalkan untuk mesin pencari (SEO)
+
+# Izinkan semua robot
+User-agent: *
+Allow: /
+Allow: /index.html
+Allow: /Kab-cirebon.html
+Allow: /Kab-semarang.html
+Allow: /Kota-cirebon.html
+Allow: /taman-herbal.html
+Allow: /Assets/
+Allow: /Css/
+Allow: /Js/
+
+# Disallow tidak needed kecuali ada folder tertentu yang tidak ingin di-index
+# Disallow: /private/
+
+# Crawl delay untuk robot (dalam detik)
+Crawl-delay: 1
+
+# Sitemap
+Sitemap: https://bocabhumi.com/sitemap.xml
+
+# Google Bot
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 0
+
+# Bing Bot
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
