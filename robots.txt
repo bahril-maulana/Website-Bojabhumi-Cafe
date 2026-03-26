@@ -20,7 +20,7 @@ Allow: /Js/
 Crawl-delay: 1
 
 # Sitemap
-Sitemap: https://bocabhumi.com/sitemap.xml
+Sitemap: https://bojabhumi.com/sitemap.xml
 
 # Google Bot
 User-agent: Googlebot
