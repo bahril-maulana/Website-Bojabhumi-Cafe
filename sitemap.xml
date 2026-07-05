@@ -1,33 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://bojabhumi.com/index.html</loc>
-    <lastmod>2026-03-18</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
+    <loc>https://bojabhumi.com/</loc>
+    <lastmod>2026-07-05</lastmod>
   </url>
   <url>
-    <loc>https://bojabhumi.com/Kab-cirebon.html</loc>
-    <lastmod>2026-03-18</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <loc>https://bojabhumi.com/Bojabhumi-cafe.html</loc>
+    <lastmod>2026-07-05</lastmod>
   </url>
   <url>
-    <loc>https://bojabhumi.com/Kab-semarang.html</loc>
-    <lastmod>2026-03-18</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <loc>https://bojabhumi.com/Boja-Agro.html</loc>
+    <lastmod>2026-07-05</lastmod>
   </url>
   <url>
-    <loc>https://bojabhumi.com/Kota-cirebon.html</loc>
-    <lastmod>2026-03-18</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <loc>https://bojabhumi.com/Boja-Factory.html</loc>
+    <lastmod>2026-07-05</lastmod>
   </url>
   <url>
-    <loc>https://bojabhumi.com/taman-herbal.html</loc>
-    <lastmod>2026-03-18</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <loc>https://bojabhumi.com/Pakar-jamu.html</loc>
+    <lastmod>2026-07-05</lastmod>
+  </url>
+  <url>
+    <loc>https://bojabhumi.com/Boja-Galeri.html</loc>
+    <lastmod>2026-07-05</lastmod>
   </url>
 </urlset>
